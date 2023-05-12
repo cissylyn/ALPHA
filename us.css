@@ -1,0 +1,60 @@
+.logo1 {
+    display: inline-block;
+    position: fixed;
+}
+
+.name {
+    position: relative;
+    padding: 150px;
+    padding-top: 40px;
+    display: inline-block;
+    color: black;
+}
+
+.logo {
+    position: absolute;
+    padding: 10px;
+    padding-top: 30px;
+    display: inline-block;
+}
+
+.parent {
+    background-color: rgb(214, 76, 214);
+    height: 100px;
+}
+
+.backimage {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), transparent), url('phg.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    position: flex;
+}
+
+strong {
+    padding-top: 30%;
+}
+
+.jesus {
+    position: absolute;
+    color: transparent;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 16%;
+    text-decoration: none;
+    -webkit-text-size-adjust: 5%;
+    text-indent: 0%;
+    -webkit-text-stroke: 1px #fff;
+    background-image: url(holy.jpg);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: backwards 50s linear infinite;
+    animation-name: back;
+}
+
+@keyframes back {
+    100% {
+        background-position: 2000px 0;
+    }
+}
